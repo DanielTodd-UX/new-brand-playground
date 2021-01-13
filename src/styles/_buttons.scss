@@ -1,0 +1,43 @@
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: block;
+    
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+}
+
+/* button colours and style */
+
+.btn--primary--solid {
+    background-color: $mint;
+    border: none;
+    color: $mine-shaft-grey;
+}
+
+.btn--secondary--solid {
+    background-color: $lillac;
+    border: none;
+    color: $mine-shaft-grey;
+}
+
+/* button Sizes */ 
+
+.btn--large {
+    padding: 15px 25px;
+    font-size: 20px;
+}
+
+.btn--medium {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn--small {
+    padding: 8px 15px;
+    font-size: 16px;
+}
